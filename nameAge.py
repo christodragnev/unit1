@@ -4,4 +4,4 @@
 
 name = input('Enter your first name and last name: ')
 age = input('Enter your age:')
-print(len(name)
+print(len(name))
