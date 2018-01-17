@@ -2,6 +2,6 @@
 #1/17/18
 #shouter.py
 
-text = input('What baseball team do you love?')
+text = input('Enter text:')
 
 print(text.upper())
