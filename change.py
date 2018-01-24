@@ -1,3 +1,7 @@
+#Christo Dragnev
+#1/24/18
+#change.py
+
 numberOfCents = int(input('Enter number of cents:'))
 
 quarter = 25
@@ -8,7 +12,7 @@ penny = 1
 numberOfQuarters = (numberOfCents//quarter)
 numberOfDimes = ((numberOfCents-((numberOfCents//quarter)*quarter))//dime)
 numberOfNickels = (numberOfCents-(numberOfQuarters*quarter)-(numberOfDimes*dime))//nickel
-
+numberOfPennies = (numberOfCents-(numberOfQuarters*quarter)-(numberOfDimes*dime)-(numberOfNickels*nickel))//penny
 
 
 print('Quarters:',(numberOfCents//quarter))
