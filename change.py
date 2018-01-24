@@ -5,8 +5,16 @@ dime = 10
 nickel = 5
 penny = 1
 
-numberOfCents-((numberOfCents//quarter)*quarter)
+numberOfQuarters = (numberOfCents//quarter)
+numberOfDimes = ((numberOfCents-((numberOfCents//quarter)*quarter))//dime)
+numberOfNickels = (numberOfCents-(numberOfQuarters*quarter)-(numberOfDimes*dime))//nickel
 
-numberOfQuarters = print('Quarters:',(numberOfCents//quarter))
-numberOfDimes = print('Dimes:',((numberOfCents-((numberOfCents//quarter)*quarter))//dime))
-numberOfNickels = print('Nickels', (numberOfCents-((numberOfCents//quarter)*quarter))-((numberOfCents//dime)*dime)//nickel)
+
+
+print('Quarters:',(numberOfCents//quarter))
+print('Dimes:',((numberOfCents-((numberOfCents//quarter)*quarter))//dime))
+print('Nickels:', (numberOfCents-(numberOfQuarters*quarter)-(numberOfDimes*dime))//nickel)
+print('Pennies:', (numberOfCents-(numberOfQuarters*quarter)-(numberOfDimes*dime)-(numberOfNickels*nickel))//penny)
+
+
+
