@@ -1,3 +1,7 @@
+#Christo Dragnev
+#1/25/18
+#isItATriangle.py
+
 A = float(input('Enter Side A: '))
 B = float(input('Enter Side B: '))
 C = float(input('Enter Side C: '))
