@@ -6,6 +6,6 @@ print('Hello')
 
 name = input('Enter your name: ')
 favNumber1 = float(input('Enter your favorite number: '))
-print(name*5)
+print(name*7)
 favNumber2 =  float(input('Enter your second favorite number: '))
-luckyNumber = print('Your favorite number is', favNumber1**favNumber2)
+luckyNumber = print('Your lucky number is', favNumber1**favNumber2)
